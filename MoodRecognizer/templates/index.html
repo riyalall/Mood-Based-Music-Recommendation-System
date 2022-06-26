@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% block title %}Home {% endblock title %}
+
+{% block body %}
+
+<div class="container my-4">
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="/static/background1.jpeg" class="d-block w-100" alt="..." width= 1200px height= 520px>
+        <div class="carousel-caption d-none d-md-block" style="color:black; font-family: 'Times New Roman', Times, serif;">
+          <h1>  Hey Folk's</h1>
+					<h2>Want to experience some cool music<br> let's get started.<br>We have got the best playlist for you<br> according to you mood</h2>
+					<h2>So lets find out your mood</h2><br><br><br>
+          <a class="btn btn-dark" onclick href="/mainpage">Get Started</a>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="/static/background1.jpeg" class="d-block w-100" alt="..." width= 1200px height= 520px>
+        <div class="carousel-caption d-none d-md-block" style="color:black;font-family: 'Times New Roman', Times, serif;">
+          <h1> The most exciting</h1>
+					<h1>rhythms seem unexpected <br> and complex,the most<br>beautiful melodies<br> simple and inevitable</h1>
+					<h1>begins</h1><br><br><br>
+          <a class="btn btn-dark" onclick href="/mainpage">Get Started</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/static/background1.jpeg" class="d-block w-100" alt="..." width= 1200px height= 520px>
+        <div class="carousel-caption d-none d-md-block" style="color:black;font-family: 'Times New Roman', Times, serif;">
+          <h2> After silence,that</h2>
+					<h2>which comes nearest to<br> expressing the inexpressible<br> is music...</h2>
+					<br><br><br>
+          <a class="btn btn-dark" onclick href="/mainpage">Get Started</a>
+        </div>
+      </div>
+      
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    
+  </div>
+  <br>
+  <center>
+  <!-- <a class="btn btn-dark" onclick href="/mainpage">Get Started</a> -->
+</center></div>
+</div>
+
+{% endblock body %}

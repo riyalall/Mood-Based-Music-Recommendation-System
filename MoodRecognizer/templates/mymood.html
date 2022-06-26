@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block title %}mymood {% endblock title %}
+{% block body %}
+<center>
+    <div class="container my-5">
+        <div style="background-image: url('/static/background2.jpg');width:1200px;height:520px;background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;font-family:'Times New Roman', Times, serif" >
+        
+        <div style="color:black">
+            <center>
+          <div class="container my-5">
+              <br><br><br><br><br><br>
+          <h1> You Have a {{variable}} mood</h1>
+          <h1>We have got the best playlist for you</h1>
+          <br>
+          <h1>Start listening to your music just on one click</h1>
+          <a class="btn btn-dark" onclick href="/music">Get Started</a>
+          <br>
+          <br>
+          </div>
+        </center>
+        </div>
+        </div>
+    </div>
+</center>
+{% endblock body %}
+
+    
